@@ -16,7 +16,7 @@ This script uses a few other command line apps in order to work.
 Rclone needs configured with a Backblaze B2 account. B2 bucket needs [file versions](https://www.backblaze.com/b2/docs/file_versions.html) enabled.
 
 - Run `rclone config` and add B2 account.
-- Download script and assign execute permission `chmod +x b2-restore.sh`
+- Download script and assign execute permission `chmod +x b2-timemachine.sh`
 
 ## Usage
 
