@@ -32,7 +32,7 @@ Specify restore folder. Defaults to current directory.
 
 `--parallel=<number-of-processes>`
 
-Defines number of rclone copyto processes allow to run concurrently. Defaults to 10.
+Defines number of rclone copyto processes allowed to run concurrently. Defaults to 10.
 
 ## Changelog
 
