@@ -1,10 +1,12 @@
 # Backblaze B2 Timemachine
 
 ## Description
-Restores a folder from Backblaze B2 storage at specified timestamp.
+Restores a folder from Backblaze B2 storage at specific point in the past.
 
 ## Limitations
-This bash script is pretty basic. It can't tell if a B2 version is needed. That means restores may/will include unnecessary previous file versions.
+
+- This script is pretty basic. It can't tell if a B2 version is needed. That means restores may include unnecessary previous file versions.
+- This is not a real Timemachine. Will not modify the space-time continuum.
 
 ## Getting started
 This script uses a few other command line apps in order to work.
@@ -22,7 +24,7 @@ Rclone needs configured with a Backblaze B2 account. B2 bucket needs [file versi
 
 Example: Restores folder as of May 1st, 2018 at 10am.
 
-`b2-restore.sh rclone-b2:Bucket/folder --rollback="2018-05-01 10:00:00"`
+`b2-timemachine.sh rclone-b2:Bucket/folder --rollback="2018-05-01 10:00:00"`
 
 ## Optional arguments
 

@@ -5,7 +5,7 @@
 #
 #   Restores a folder from Backblaze B2 storage at specified timestamp.
 #
-#   `b2-restore.sh <rclone-b2-remote:Bucket/folder> --rollback=<timestamp>`
+#   `b2-timemachine.sh <rclone-b2-remote:Bucket/folder> --rollback=<timestamp>`
 #   Format of timestamp: 2018-05-11 10:00:00
 #
 #   [--restore-to=<destination-folder>]
