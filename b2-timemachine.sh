@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-#   Backblaze B2 Timemachine
+#   Backblaze B2 Time Machine
 #
 #   Restores a folder from Backblaze B2 storage at specified timestamp.
 #

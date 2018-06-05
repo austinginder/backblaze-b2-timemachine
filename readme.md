@@ -1,4 +1,4 @@
-# Backblaze B2 Timemachine
+# Backblaze B2 Time Machine
 
 ## Description
 Restores a folder from Backblaze B2 storage at specific point in the past.
@@ -6,7 +6,7 @@ Restores a folder from Backblaze B2 storage at specific point in the past.
 ## Limitations
 
 - This script is pretty basic. It can't tell if a B2 version is needed. That means restores may include unnecessary previous file versions.
-- This is not a real Timemachine. Will not modify the space-time continuum.
+- This is not a real time machine. Will not modify the space-time continuum.
 
 ## Getting started
 This script uses a few other command line apps in order to work.
@@ -39,7 +39,7 @@ Defines number of rclone copyto processes allowed to run concurrently. Defaults 
 ## Changelog
 
 ### [0.1.0] - 2018-05-21
-- Initial release. Bash attempt to solve B2 Timemachine based on official Rclone discussion [#2126](https://github.com/ncw/rclone/issues/2126).
+- Initial release. Bash attempt to solve B2 time machine restore based on official Rclone discussion [#2126](https://github.com/ncw/rclone/issues/2126).
 
 ## License
 This is free software under the terms of MIT the license (check the LICENSE file included in this package).
